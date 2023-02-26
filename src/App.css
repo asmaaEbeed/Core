@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+/* form style */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus{
+  background-color: #fff !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0), inset 0 0 0 100px rgba(255, 255, 255,1);
+
+}
+.form-row {
+  margin-bottom: 0;
+  padding: 4px 0;
+  position: relative; 
+}
+.label-helper {
+  position: absolute !important;
+  opacity: 0;
+  transition: .2s bottom, .2s opacity;
+  bottom: 0;
+  left: 15px !important;
+  z-index: 5;
+}
+.label-helper.visible {
+  opacity: 1;
+  bottom: 75%;
+  background-color: #fff;
+  font-family: arial;
+  font-size: 12px;
+  line-height: 1;
+  opacity: 1;
+  padding: 4px; 
+  font-weight: 600;
+}
+.input-text:focus + .label-helper {
+  bottom: 77%;
+  background-color: #fff;
+  /* text-shadow: 2px 1px 1px #ffffff, -2px 0px 1px #fff; */
+  font-family: arial;
+  font-size: 12px;
+  line-height: 1;
+  opacity: 1;
+  padding: 4px; 
+  font-weight: 600;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+textarea.input-text:focus + .label-helper{
+  bottom: 91%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+textarea.input-text + .label-helper.visible{
+  bottom: 91%;
+}
+.MuiTable-root tr:last-child td .action-wrapper .last-relative{
+  position: relative
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*MUI MultiSelect*/
+.MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+  border: none;
+}
+.MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  outline-color: #A1D1D8;
+}
+.MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #A1D1D8
+}
+.MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color: #A1D1D8 !important
+}
+.MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input, 
+.MuiSelect-select.MuiSelect-outlined.MuiSelect-multiple.MuiInputBase-input.MuiOutlinedInput-input{
+  padding: 7.5px 10px !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

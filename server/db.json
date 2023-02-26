@@ -1,0 +1,388 @@
+{
+  "companies": [
+    {
+      "id": "001",
+      "companyName": "Company 1",
+      "companyType": "type 1",
+      "creationDate": "15/1/1989"
+    },
+    {
+      "id": "002",
+      "companyName": "Company 2",
+      "companyType": "type 2",
+      "creationDate": "15/1/1989"
+    },
+    {
+      "id": "003",
+      "companyName": "Company 3",
+      "companyType": "type 3",
+      "creationDate": "15/1/1989"
+    },
+    {
+      "id": "004",
+      "companyName": "Company 4",
+      "companyType": "type 4",
+      "creationDate": "15/1/1989"
+    },
+    {
+      "id": "2sV6dyq",
+      "companyName": "Asmaa For Programming",
+      "companyType": "companyType2",
+      "creationDate": "1989-01-15",
+      "imageUpload": {},
+      "companyManager": "Manager2",
+      "companyOwner": "member2",
+      "companyDescription": "asmaa for programming solution and graphic design"
+    },
+    {
+      "id": "2sV6dq",
+      "companyName": "Asmaa For Programming",
+      "companyType": "companyType2",
+      "creationDate": "1989-01-15",
+      "imageUpload": {},
+      "companyManager": "Manager2",
+      "companyOwner": "member2",
+      "companyDescription": "asmaa for programming solution and graphic design"
+    },
+    {
+      "id": "2sV6q",
+      "companyName": "Asmaa For Programming",
+      "companyType": "companyType2",
+      "creationDate": "1989-01-15",
+      "imageUpload": {},
+      "companyManager": "Manager2",
+      "companyOwner": "member2",
+      "companyDescription": "asmaa for programming solution and graphic design"
+    },
+    {
+      "id": "2sV6dq11",
+      "companyName": "Asmaa For Programming",
+      "companyType": "companyType2",
+      "creationDate": "1989-01-15",
+      "imageUpload": {},
+      "companyManager": "Manager2",
+      "companyOwner": "member2",
+      "companyDescription": "asmaa for programming solution and graphic design"
+    },
+    {
+      "id": "2sVkjk6dq",
+      "companyName": "Asmaa For Programming",
+      "companyType": "companyType2",
+      "creationDate": "1989-01-15",
+      "imageUpload": {},
+      "companyManager": "Manager2",
+      "companyOwner": "member2",
+      "companyDescription": "asmaa for programming solution and graphic design"
+    },
+    {
+      "id": "2sV6hfdq",
+      "companyName": "Asmaa For Programming",
+      "companyType": "companyType2",
+      "creationDate": "1989-01-15",
+      "imageUpload": {},
+      "companyManager": "Manager2",
+      "companyOwner": "member2",
+      "companyDescription": "asmaa for programming solution and graphic design"
+    },
+    {
+      "id": "2sVkjkj6dq",
+      "companyName": "Asmaa For Programming",
+      "companyType": "companyType2",
+      "creationDate": "1989-01-15",
+      "imageUpload": {},
+      "companyManager": "Manager2",
+      "companyOwner": "member2",
+      "companyDescription": "asmaa for programming solution and graphic design"
+    },
+    {
+      "id": "0016",
+      "companyName": "Smart Village",
+      "companyType": "companyType2",
+      "creationDate": "5444-01-15",
+      "imageUpload": null,
+      "companyManager": "Manager2",
+      "companyOwner": "member2",
+      "companyDescription": "m"
+    }
+  ],
+  "departments": [
+    {
+      "id": "002",
+      "departmentName": "HR",
+      "status": "Active",
+      "departmentMngr": "Ahmed",
+      "deptDescription": "Hr solution",
+      "creationDate": "1989-01-15",
+      "selectedSubDeps": [
+        "dept2",
+        "dept3",
+        "dept4"
+      ]
+    },
+    {
+      "id": "003",
+      "departmentName": "stock",
+      "status": "active",
+      "creationDate": "1989-01-15",
+      "departmentMngr": "Ahmed"
+    },
+    {
+      "id": "001",
+      "departmentName": "accountant",
+      "status": "Deactive",
+      "departmentMngr": "manager 1",
+      "subDepartment": "subdepartmet1",
+      "deptDescription": "dept desc",
+      "createdDate": "1980-12-01"
+    },
+    {
+      "id": "006",
+      "departmentName": "it",
+      "status": "Active",
+      "departmentMngr": "manager 2",
+      "subDepartment": "subdepartmet1",
+      "deptDescription": "dept it desc",
+      "creationDate": "1980-03-21"
+    },
+    {
+      "id": "007",
+      "departmentName": "security",
+      "status": "Active",
+      "departmentMngr": "manager 1",
+      "subDepartment": "subdepartmet1",
+      "deptDescription": "security description",
+      "creationDate": "1983-09-06"
+    },
+    {
+      "id": "008",
+      "departmentName": "secretary",
+      "status": "Deactive",
+      "departmentMngr": "manager 1",
+      "subDepartment": "subdepartmet1",
+      "deptDescription": "secretary description",
+      "creationDate": "1978-01-06"
+    },
+    {
+      "id": "009",
+      "departmentName": "safety",
+      "status": "Active",
+      "departmentMngr": "manager 1",
+      "subDepartment": "subdepartmet1",
+      "deptDescription": "safety dept description",
+      "creationDate": "1966-11-16"
+    },
+    {
+      "id": "010",
+      "departmentName": "insurance",
+      "status": "Active",
+      "departmentMngr": "manager 1",
+      "subDepartment": "subdepartmet1",
+      "deptDescription": "insurance dept desc",
+      "creationDate": "1989-01-15"
+    },
+    {
+      "id": "0052",
+      "departmentName": "call center",
+      "status": "Deactive",
+      "departmentMngr": "manager 1",
+      "subDepartment": "subdepartmet1",
+      "deptDescription": "Call center description",
+      "creationDate": "1988-12-12",
+      "selectedSubDeps": [
+        "dept4",
+        "dept3"
+      ]
+    }
+  ],
+  "sub-departments": [
+    {
+      "id": "001",
+      "value": "dept1",
+      "label": "Dept1"
+    },
+    {
+      "id": "002",
+      "value": "dept2",
+      "label": "Dept2"
+    },
+    {
+      "id": "003",
+      "value": "dept3",
+      "label": "Dept3"
+    },
+    {
+      "id": "004",
+      "value": "dept4",
+      "label": "Dept4"
+    }
+  ],
+  "groups": [
+    {
+      "id": "001",
+      "groupName": "group1 new",
+      "status": "Active",
+      "groupManager": "emp2",
+      "groupDescription": "descr",
+      "creationDate": "1989-01-15",
+      "groupMembers": [
+        "emp2",
+        "emp4"
+      ],
+      "NoOfMembers": 2
+    },
+    {
+      "id": "002",
+      "groupName": "shaimaa",
+      "status": "Active",
+      "groupManager": "emp1",
+      "groupDescription": "desc",
+      "creationDate": "1983-09-06",
+      "groupMembers": [
+        "emp2",
+        "emp4"
+      ],
+      "NoOfMembers": 2
+    },
+    {
+      "id": "003",
+      "groupName": "Negm",
+      "status": "Deactive",
+      "groupManager": "emp2",
+      "groupDescription": "description",
+      "creationDate": "1987-05-15",
+      "groupMembers": [
+        "emp2",
+        "emp3",
+        "emp4"
+      ],
+      "NoOfMembers": 3
+    }
+  ],
+  "employees": [
+    {
+      "id": "001",
+      "name": "test new",
+      "phone": "01254",
+      "creationDate": "2025-12-01",
+      "company": "Company 4",
+      "department": "HR",
+      "group": "shaimaa",
+      "role": "hr employee",
+      "note": "aa",
+      "addressLine1": "test",
+      "addressLine2": "test",
+      "country": "country 2",
+      "city": "city 2",
+      "state": "me",
+      "zipCode": "4241",
+      "userName": "test",
+      "email": "test@gmail.com",
+      "password": "012",
+      "filesUploaded": {}
+    }
+  ],
+  "roles": [
+    {
+      "id": "001",
+      "name": "manager"
+    },
+    {
+      "id": "002",
+      "name": "hr employee"
+    }
+  ],
+  "users": [
+    {
+      "id": "001",
+      "personal_name": "test",
+      "phone": "01254",
+      "addressLine1": "portsaid",
+      "addressLine2": "portfouad",
+      "country": "country 2",
+      "city": "city 2",
+      "state": "Egypt",
+      "zipCode": "42241",
+      "userName": "test",
+      "email": "test@gmail.com",
+      "password": "0000",
+      "creationDate": "1987-05-15"
+    },
+    {
+      "id": "002",
+      "personal_name": "test2",
+      "phone": "01254",
+      "addressLine1": "portsaid",
+      "addressLine2": "portfouad",
+      "country": "country 2",
+      "city": "city 2",
+      "state": "Egypt",
+      "zipCode": "42241",
+      "userName": "test2",
+      "email": "test@gmail.com",
+      "password": "0000",
+      "creationDate": "1987-05-15"
+    },
+    {
+      "id": "003",
+      "personal_name": "test3",
+      "phone": "01254",
+      "addressLine1": "portsaid",
+      "addressLine2": "portfouad",
+      "country": "country 2",
+      "city": "city 2",
+      "state": "Egypt",
+      "zipCode": "42241",
+      "userName": "test",
+      "email": "test@gmail.com",
+      "password": "0000",
+      "creationDate": "1987-05-15"
+    },
+    {
+      "id": "004",
+      "personal_name": "test4",
+      "phone": "01254",
+      "addressLine1": "portsaid",
+      "addressLine2": "portfouad",
+      "country": "country 2",
+      "city": "city 2",
+      "state": "Egypt",
+      "zipCode": "42241",
+      "userName": "test",
+      "email": "test@gmail.com",
+      "password": "0000",
+      "creationDate": "1987-05-15"
+    },
+    {
+      "personal_name": "asmaa new",
+      "phone": "01000000",
+      "addressLine1": "portsaid",
+      "addressLine2": "portfouad",
+      "creationDate": "2023-2-22",
+      "country": "country 2",
+      "city": "city 2",
+      "state": "Egypt",
+      "zipCode": "42241",
+      "userName": "Asmaa_Ebeed",
+      "email": "testt@gmail.com",
+      "password": "123",
+      "id": "JKOZyH6"
+    }
+  ],
+  "notifications": [
+    {
+      "date": "09/08/2014, 2:35:56 AM",
+      "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"
+
+    },
+    {
+      "date": "09/15/2014, 3:35:56 AM",
+      "content": "It is a long established fact 2 that a reader will be distracted by the readable content of a page when looking at its layout"
+
+    },
+    {
+      "date": "09/15/2019, 3:35:56 AM",
+      "content": "It is a long established fact 3 that a reader will be distracted by the readable content of a page when looking at its layout"
+
+    }
+  ]
+}
